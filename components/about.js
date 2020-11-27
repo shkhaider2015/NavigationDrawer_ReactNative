@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
@@ -10,17 +10,16 @@ const styles = StyleSheet.create({
     },
   });
 
-class Home extends React.Component {
 
-
+class About extends React.Component {
     render() {
         return (
-            <View style={styles.container} >
-                <Text>Home</Text>
-            </View>
+                <View style={styles.container} >
+                    <Text>Profile</Text>
+                </View>
         );
     }
 }
 
-export default Home;
+export default About;
 
